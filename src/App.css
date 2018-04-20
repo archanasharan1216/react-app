@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*first-column {
+  width: 60%;
+}
+
+.second-column {
+  width: 40%;
+}*/
+
+.first-image {
+  /*min-height: 490px;*/
+  padding: 40px 40px 20px;
+}
+
+.second-image {
+  min-height: 236px;
+  padding: 30px;
+}
+
+.third-image {
+  min-height: 236px;
+  padding: 30px;
+  margin-top: 17px;
+}
+
+.each-image {
+  display: block;
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+
+
+  position: relative;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  background-position: center center;
+  background-size: cover;
+}
+
+.each-image :hover {
+  -webkit-transition: all .15s ease-in;
+  transition: all .15s ease-in;
+  -webkit-transform: translate(0,0);
+  transform: translate(0,0);
+}
